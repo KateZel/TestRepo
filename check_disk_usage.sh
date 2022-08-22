@@ -12,4 +12,4 @@ top1=$(du /home/pyprep02 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | c
 
 disk=$(du /home/pyprep02 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | cut -f 1)
 
-echo -e "$top1 with disk usage of $disk"
+echo -e "$top1 with Disk usage of $disk"
