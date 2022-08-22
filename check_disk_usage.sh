@@ -8,8 +8,8 @@ else
 fi
 echo -e "Checking disk usage in $dir\n"
 
-top1=$(du /home/pyprep02 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | cut -f 2)
+top1=$(du /home/pystud25 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | cut -f 2)
 
-disk=$(du /home/pyprep02 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | cut -f 1)
+disk=$(du /home/pystud25 -d 1 2>/dev/null | sort -rn | head -n 2 | tail -n 1 | cut -f 1)
 
 echo -e "$top1 with Disk usage of $disk"
